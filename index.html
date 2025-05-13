@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">lipekt</a>
+        <!-- Language Toggle -->
+        <button id="languageToggle" class="btn btn-sm btn-outline-secondary">PT/EN</button>
+    </div>
+</nav>
+
+<!-- Projects Section -->
+<section class="projects py-5">
+    <div class="container">
+        <h2 class="en">Projects</h2>
+        <h2 class="pt" style="display: none;">Projetos</h2>
+        
+        <div class="row">
+            <!-- Project Cards will go here -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="img/restaurant.jpg" class="card-img-top" alt="Restaurant">
+                    <div class="card-body">
+                        <h5 class="card-title en">Restaurant Landing Page</h5>
+                        <h5 class="card-title pt" style="display: none;">Página de Restaurante</h5>
+                        <p class="card-text en">HTML/CSS restaurant website with menu and reservations</p>
+                        <p class="card-text pt" style="display: none;">Website de restaurante com menu e reservas</p>
+                        <a href="https://lipekt.github.io/restaurant-website" class="btn btn-primary en">View Website</a>
+                        <a href="https://lipekt.github.io/restaurant-website" class="btn btn-primary pt" style="display: none;">Ver Site</a>
+                        <a href="https://github.com/lipekt/restaurant-website" class="btn btn-primary en">View Project</a>
+                        <a href="https://github.com/lipekt/restaurant-website" class="btn btn-primary pt" style="display: none;">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for Blog and E-commerce -->
+        </div>
+    </div>
+</section>
+
+<!-- Hire Me Button -->
+<div class="fixed-bottom text-end mb-4 me-4">
+    <a href="mailto:your@email.com" class="btn btn-success btn-lg me-2 en">Hire Me</a>
+    <a href="mailto:your@email.com" class="btn btn-success btn-lg me-2 pt" style="display: none;">Contrate-me</a>
+    <a href="https://wa.me/yourwhatsappnumber" class="btn btn-success btn-lg">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
